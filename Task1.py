@@ -25,4 +25,4 @@ def convert_number(num: int, mode: str) -> str:
         num = num // convert
     return result[::-1]
 
-print(convert_number(423, mode="hex"), f"assert: {hex(21)}")
+print(convert_number(423, mode="hex"), f"assert: {hex(32)}")
